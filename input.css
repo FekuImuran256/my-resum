@@ -4,7 +4,7 @@
 
 
 @layer components {
-       .container {
+        .container {
         @apply grid grid-cols-1 md:grid-cols-[30%_70%] max-w-6xl mx-auto bg-white shadow-lg rounded-xl overflow-hidden;
     }
     
@@ -13,8 +13,7 @@
         @apply bg-gradient-to-b from-blue-900 to-blue-700 text-white p-6 md:p-8;
     }
     
-    
-    .profile-section {
+        .profile-section {
         @apply text-center mb-8;
     }
     
@@ -52,7 +51,8 @@
         @apply text-blue-100 hover:text-white break-all transition-colors duration-200;
     }
     
-        .skills-grid {
+    
+    .skills-grid {
         @apply grid grid-cols-1 gap-4;
     }
     
@@ -81,8 +81,7 @@
         @apply text-blue-300 mt-1;
     }
     
-    
-    .main-content {
+        .main-content {
         @apply p-6 md:p-8 space-y-8;
     }
     
@@ -133,7 +132,7 @@
     }
 }
 
-/
+
 @layer base {
     * {
         @apply box-border m-0 p-0;
@@ -153,7 +152,7 @@
     }
 }
 
-/
+
 @layer utilities {
     .text-balance {
         text-wrap: balance;
